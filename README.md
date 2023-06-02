@@ -83,6 +83,7 @@ COMANDO | EXPLICAÇÃO
 ### 3. COMO FAZER (TUTORIAL)
 
 **INSTALANDO E CONFIGURANDO VSCODE, GIT E GITHUB**
+
 Em breve.
 
 **ENVIANDO ESTE ARQUIVO (README.MD) PARA O GITHUB PELO VSCODE**
@@ -102,8 +103,9 @@ Em breve.
    \ `git log`<br>
    \ `git branch`<br>
    \ `git branch -M main`<br>
-7.  No GITHUB, copie o código git remote add origin `https://github.com/seu-nome-de-usuario/nome-da-sua-pasta` e cole no terminal;
-8.  Digite no terminal para enviar seu `commit` para seu repositório GITHUB: <br>
+7.  No GITHUB, copie o código e cole no terminal do VSCode:
+   \ `git remote add origin 'https://github.com/seu-nome-de-usuario/nome-da-sua-pasta'`  
+8.  Digite no terminal para enviar seu `commit` para seu repositório GITHUB:<br>
    \ `git push -u origin main`<br>
    \ `git push`
 9.  Atualize sua página no GITHUB (pressione `F5` no teclado, por exemplo)
@@ -114,5 +116,6 @@ Em breve.
    \ `git push`<br>
 
 <hr>
+<br>
 
-> Obrigado por ler. Consulte a playlist no começo do README e os demais tutoriais para aprender atalhos e novos comandos e recursos.
+> Obrigado por acompanhar. Considere apoiar adicionando novos conteúdos ao material. Consulte a playlist no começo do README e os demais tutoriais para aprender atalhos e novos comandos e recursos relacionados ao GIT e GITHUB.
