@@ -8,34 +8,28 @@
 
 :brazil:
 <h1>BEM VINDO PROGRAMADOR(A)!</h1>
-<br>
-Use esse README para tirar dúvidas sobre todos os comandos e funcionalidades do GIT e GITHUB. >Fique a vontade para enviar contribuições para a comunidade.
+Use esse `README.md` para tirar dúvidas sobre todos os comandos e funcionalidades do GIT e GITHUB. >Fique a vontade para enviar contribuições para a comunidade.
 <br>
 <hr>
-<h5>README criado a partir das explicações do Professor Prieto (https://github.com/pietromartinso). Acesse a playlist para ter o conteúdo completo: https://youtube.com/playlist?list=PLpaKFn4Q4GMOhOuffvi7VagNib0P325AV</h5>
+<h5>README criado a partir das explicações do [Professor Pietro](https://github.com/pietromartinso). Acesse a [playlist](https://youtube.com/playlist?list=PLpaKFn4Q4GMOhOuffvi7VagNib0P325AV) para ver o conteúdo completo.</h5>
 <hr>
-<br>
-<h6>PS.: Para facilitar o acesso a informação, favor contribuir como se estivesse explicando para alguem do absoluto zero. Simplificar termos técnicos ao ponto que qualquer pessoa possa entender sem ter muitos questionamentos. Esse é o desafio! Que comecem os jogos.</h6>
+> Programadores, para facilitar o acesso a informação, favor contribuir como se estivesse explicando para alguém do absoluto zero. Simplificar termos técnicos ao ponto que qualquer pessoa possa entender sem ter muitos questionamentos. Esse é o desafio! **Que comecem os jogos**</strong>.
 <br>
 <h2>ESTRUTURA</h2>
-~~~DICIONÁRIO DE TERMOS
-Aqui você encontrará uma lista com os principais termos usados durante o uso do GIT e GITHUB e suas respectivas definições.
-~~~
-
-~~~COMANDOS DO TERMINAL
-Aqui você verá os principais comandos para ajudar você a navegar pelo terminal.  
-~~~
-
-~~~COMO FAZER (TUTORIAL)
-Aqui você verá exemplos práticos de como executar vários comandos no GIT e no GITHUB. 
-~~~
-
+1. DICIONÁRIO DE TERMOS
+<!-- Aqui você encontrará uma lista com os principais termos usados durante o uso do GIT e GITHUB e suas respectivas definições.-->
+2. COMANDOS DO TERMINAL
+<!-- Aqui você verá os principais comandos para ajudar você a navegar pelo terminal. --> 
+3. COMO FAZER (TUTORIAL)
+<!-- Aqui você verá exemplos práticos de como executar vários comandos no GIT e no GITHUB. -->
+<hr>
 <h3>1. DICIONÁRIO DE TERMOS</h3>
-TERMO | EXPLICAÇÃO
+
+TERMO | EXPLICAÇÃO |
 :---------- | :------------------------------
-commit | teste
-deploy | teste
-VSCode | teste
+*commit* | teste
+*deploy* | teste
+*VSCode* | teste
 
 <hr>
 <h3>2. COMANDOS DO TERMINAL</h3>
@@ -43,25 +37,24 @@ VSCode | teste
 **WINDOWS**
 COMANDO | EXPLICAÇÃO
 :---------- | :------------------------------ 
-/exit | sai do terminal
-/.cd | volta para a pasta anterior
-/..cd | volta duas pastas anteriores
-/cls | limpa a tela
-/dir | Mostra os arquivos da pasta
-/help | mostra alguns dos comandos disponiveis no terminal 
+`/exit` | Fecha o terminal
+`/.cd` | Volta para a pasta anterior
+`/..cd` | Volta duas pastas anteriores
+`/cls` | Limpa a tela
+`/dir` | Mostra todos os arquivos da pasta
+`/help` | Mostra alguns dos comandos disponiveis no terminal 
 / | teste
 
 **MAC**
 COMANDO | EXPLICAÇÃO
 :---------- | :------------------------------ 
-/teste | teste
+`/teste` | teste
 
 **LINUX**
 COMANDO | EXPLICAÇÃO
 :---------- | :------------------------------ 
-/teste | teste
+`/teste` | teste
 
-<br>
 <hr>
 <h3>3. COMO FAZER (TUTORIAL)</h3>
 **ENVIANDO ESTE ARQUIVO (README.MD) PARA O GITHUB PELO VSCODE**
