@@ -51,6 +51,7 @@ COMANDO | EXPLICAÇÃO
 `git branch -M main` | Modifica o nome da `branch`
 `git push -u origin main` | Usado somente nos envios dos primeiros `commit` de cada repositório para o GITHUB
 `git push` | Faz o envio das alterações `commit` para o GITHUB
+`em breve` | Em breve
 
 <br>
 
@@ -63,23 +64,26 @@ COMANDO | EXPLICAÇÃO
 `/cls` | Limpa a tela do terminal
 `/dir` | Mostra todos os arquivos da pasta
 `/help` | Mostra alguns dos comandos disponiveis no terminal 
-/ | teste
+`/em breve` | Em breve
 <br>
 
 **MAC**
 COMANDO | EXPLICAÇÃO
 :---------- | :------------------------------ 
-`/teste` | teste
+`/em breve` | Em breve
 <br>
 
 **LINUX**
 COMANDO | EXPLICAÇÃO
 :---------- | :------------------------------ 
-`/teste` | teste
+`/em breve` | Em breve
 
 <hr>
 
 ### 3. COMO FAZER (TUTORIAL)
+
+**INSTALANDO E CONFIGURANDO VSCODE, GIT E GITHUB**
+Em breve.
 
 **ENVIANDO ESTE ARQUIVO (README.MD) PARA O GITHUB PELO VSCODE**
 
@@ -89,25 +93,25 @@ COMANDO | EXPLICAÇÃO
 4.  Criar no VSCode o arquivo ou demais pastas que serão enviadas para o GITHUB (crie um arquivo README.MD, por exemplo);
 5.  Abrir o terminal pelo VSCode (verificar se iniciou diretamente na pasta criada);
 6.  Digitar os seguintes comandos no terminal, dando enter ao final para confirmar: <br>
-   `git init`<br>
-   `git status`<br>
-   `git add nome-do-seu-arquivo`<br>
-   `git commit -m "Sua mensagem aqui"`<br>
-   `git config --global user.name "seu-nome-de-usuário-no-github"`<br>
-   `git config --global user.email "seu-email-no-github"`<br>
-   `git log`<br>
-   `git branch`<br>
-   `git branch -M main`<br>
+   \ `git init`<br>
+   \ `git status`<br>
+   \ `git add nome-do-seu-arquivo`<br>
+   \ `git commit -m "Sua mensagem aqui"`<br>
+   \ `git config --global user.name "seu-nome-de-usuário-no-github"`<br>
+   \ `git config --global user.email "seu-email-no-github"`<br>
+   \ `git log`<br>
+   \ `git branch`<br>
+   \ `git branch -M main`<br>
 7.  No GITHUB, copie o código git remote add origin `https://github.com/seu-nome-de-usuario/nome-da-sua-pasta` e cole no terminal;
 8.  Digite no terminal para enviar seu `commit` para seu repositório GITHUB: <br>
-   `git push -u origin main`<br>
-   `git push`
+   \ `git push -u origin main`<br>
+   \ `git push`
 9.  Atualize sua página no GITHUB (pressione `F5` no teclado, por exemplo)
 10. Ao realizar novas alterações neste repositório, repita os comandos: <br>
-   `git status`<br> 
-   `git add .`<br>
-   `git commit -m "Sua mensagem aqui"`<br>
-   `git push`<br>
+   \ `git status`<br> 
+   \ `git add .`<br>
+   \ `git commit -m "Sua mensagem aqui"`<br>
+   \ `git push`<br>
 
 <hr>
 
