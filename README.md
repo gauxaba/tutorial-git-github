@@ -36,13 +36,31 @@ TERMO | EXPLICAÇÃO |
 <hr>
 <h3>2. COMANDOS DO TERMINAL</h3>
 
+**GIT**
+COMANDO | EXPLICAÇÃO
+:---------- | :------------------------------ 
+`git init` | Cria a pasta oculta `.git` dentro da pasta criada
+`git status` | Verifica se os arquivos adicionados, enviados, modificados, etc (use em qualquer momento)
+`git add` nome-do-seu-arquivo | Adiciona o arquivo/pasta nomeado à fila para envio
+`git add .` | Adiciona todos os arquivos/pastas à fila para envio
+`git commit -m "Sua mensagem aqui"` | Confirma as modificações/exclusões feitas e adiciona uma mensagem de identificação
+`git config --global user.name "seu-nome-de-usuário-no-github"` | Comando usado para vincular seu nome de usuário no GITHUB ao VSCode. Geralmente feito no envio do primeiro repositório
+`git config --global user.email "seu-email-no-github"` | Comando usado para vincular seu e-mail no GITHUB ao VSCode. Geralmente feito no envio do primeiro repositório
+`git log` | Mostra os registros de *commits* feitos antes do `push` 
+`git branch` | Mostra o nome principal da `branch`
+`git branch -M main` | Modifica o nome da `branch`
+`git push -u origin main` | Usado somente nos envios dos primeiros `commit` de cada repositório para o GITHUB
+`git push` | Faz o envio das alterações `commit` para o GITHUB
+
+<br>
+
 **WINDOWS**
 COMANDO | EXPLICAÇÃO
 :---------- | :------------------------------ 
 `/exit` | Fecha o terminal
 `/.cd` | Volta para a pasta anterior
 `/..cd` | Volta duas pastas anteriores
-`/cls` | Limpa a tela
+`/cls` | Limpa a tela do terminal
 `/dir` | Mostra todos os arquivos da pasta
 `/help` | Mostra alguns dos comandos disponiveis no terminal 
 / | teste
@@ -71,27 +89,26 @@ COMANDO | EXPLICAÇÃO
 4.  Criar no VSCode o arquivo ou demais pastas que serão enviadas para o GITHUB (crie um arquivo README.MD, por exemplo);
 5.  Abrir o terminal pelo VSCode (verificar se iniciou diretamente na pasta criada);
 6.  Digitar os seguintes comandos no terminal, dando enter ao final para confirmar: <br>
-   `git init` -> Cria a pasta .git na sua pasta criada <br>
-   `git status` -> Verifica se os arquivos adicionados, enviados, modificados, etc (use em qualquer momento) <br>
-   `cls` -> limpa a tela do terminal (use em qualquer momento) <br>
-   `git add nome-do-seu-arquivo` -> Adiciona o arquivo/pasta à fila para envio <br>
-   `git commit -m "Sua mensagem aqui"` -> Confirma as modificações/exclusões feitas <br>
-   `git config --global user.name "seu-nome-de-usuário-no-github"` -> Digitar SOMENTE se o VSCode não estiver configurado <br>
-   `git config --global user.email "seu-email-no-github"` -> Digitar SOMENTE se o VSCode não estiver configurado <br>
-   `git log` -> Verifica os commits feitos <br>
-   `git branch` -> Verificar nome da branch (estrutura da pasta) <br>
-   `git branch -M main` -> Modifica nome da branch (estrutura da pasta) <br>
-   `cls` -> limpa a tela do terminal (use em qualquer momento)
+   `git init`<br>
+   `git status`<br>
+   `git add nome-do-seu-arquivo`<br>
+   `git commit -m "Sua mensagem aqui"`<br>
+   `git config --global user.name "seu-nome-de-usuário-no-github"`<br>
+   `git config --global user.email "seu-email-no-github"`<br>
+   `git log`<br>
+   `git branch`<br>
+   `git branch -M main`<br>
 7.  No GITHUB, copie o código git remote add origin `https://github.com/seu-nome-de-usuario/nome-da-sua-pasta` e cole no terminal;
 8.  Digite no terminal para enviar seu `commit` para seu repositório GITHUB: <br>
-   `git push -u origin main` - Caso seja o primeiro envio <br>
-   `git push` - Caso já tenha feito o envio
+   `git push -u origin main`<br>
+   `git push`
 9.  Atualize sua página no GITHUB (pressione `F5` no teclado, por exemplo)
 10. Ao realizar novas alterações neste repositório, repita os comandos: <br>
-   `git status` <br> 
-   `git add .` <br>
-   `git commit -m "Sua mensagem aqui"` <br>
-   `git push` <br>
+   `git status`<br> 
+   `git add .`<br>
+   `git commit -m "Sua mensagem aqui"`<br>
+   `git push`<br>
 
 <hr>
+
 > Obrigado por ler. Consulte a playlist no começo do README e os demais tutoriais para aprender atalhos e novos comandos e recursos.
