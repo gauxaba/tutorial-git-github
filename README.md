@@ -73,7 +73,8 @@ COMANDO | EXPLICAÇÃO
 3.  Abrir a pasta criada no VSCode;
 4.  Criar no VSCode o arquivo ou demais pastas que serão enviadas para o GITHUB (crie um arquivo README.MD, por exemplo);
 5.  Abrir o terminal pelo VSCode (verificar se iniciou diretamente na pasta criada);
-6.  Digitar os seguintes comandos no terminal, dando enter ao final para confirmar:
+6.  Digitar os seguintes comandos no terminal, dando enter ao final para confirmar:  
+
    `git init` -> Cria a pasta .git na sua pasta criada
    `git status` -> Verifica se os arquivos adicionados, enviados, modificados, etc (use em qualquer momento)
    `cls` -> limpa a tela do terminal (use em qualquer momento)
@@ -87,14 +88,17 @@ COMANDO | EXPLICAÇÃO
    `cls` -> limpa a tela do terminal (use em qualquer momento)
 
 7.  No GITHUB, copie o código git remote add origin `https://github.com/seu-nome-de-usuario/nome-da-sua-pasta` e cole no terminal;
-8.  Digite no terminal para enviar seu `commit` para seu repositório GITHUB:
+8.  Digite no terminal para enviar seu `commit` para seu repositório GITHUB: <br>
    `git push -u origin main` - Caso seja o primeiro envio
    `git push` - Caso já tenha feito o envio
 9.  Atualize sua página no GITHUB (pressione `F5` no teclado, por exemplo)
 10. Ao realizar novas alterações neste repositório, repita os comandos:
+
+
    `git status` 
    `git add .`
    `git commit -m "Sua mensagem aqui"`
    `git push`
-    
+
+<hr>
 > Obrigado por ler. Consulte a playlist no começo do README e os demais tutoriais para aprender atalhos e novos comandos e recursos.
