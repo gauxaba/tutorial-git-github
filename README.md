@@ -1,46 +1,76 @@
-#<strong>BEM VINDO PROGRAMADOR(A)!</strong>#
+:brazil: <!-- Icones dos países. Ao clicar, direciona para nova página ou para o ponto em que a nova linguagem começa-->
+:us:
+:es:
+:fr:
+:it:
+:jp:
+<hr>
 
-Use esse README para tirar dúvidas sobre todos os comandos e funcionalidades do GIT e GITHUB. Fique a vontade para enviar contribuições para a comunidade.
+:brazil:
+<h1>BEM VINDO PROGRAMADOR(A)!</h1>
+<br>
+Use esse README para tirar dúvidas sobre todos os comandos e funcionalidades do GIT e GITHUB. >Fique a vontade para enviar contribuições para a comunidade.
+<br>
+<hr>
+<h5>README criado a partir das explicações do Professor Prieto (https://github.com/pietromartinso). Acesse a playlist para ter o conteúdo completo: https://youtube.com/playlist?list=PLpaKFn4Q4GMOhOuffvi7VagNib0P325AV</h5>
+<hr>
+<br>
+<h6>PS.: Para facilitar o acesso a informação, favor contribuir como se estivesse explicando para alguem do absoluto zero. Simplificar termos técnicos ao ponto que qualquer pessoa possa entender sem ter muitos questionamentos. Esse é o desafio! Que comecem os jogos.</h6>
+<br>
+<h2>ESTRUTURA</h2>
+~~~DICIONÁRIO DE TERMOS
+Aqui você encontrará uma lista com os principais termos usados durante o uso do GIT e GITHUB e suas respectivas definições.
+~~~
 
-README criado a partir das explicações do Professor Prieto (https://github.com/pietromartinso). Acesse a playlist para ter o conteúdo completo: https://youtube.com/playlist?list=PLpaKFn4Q4GMOhOuffvi7VagNib0P325AV
+~~~COMANDOS DO TERMINAL
+Aqui você verá os principais comandos para ajudar você a navegar pelo terminal.  
+~~~
 
-###<strong>ESTRUTURA</strong>###
-1 - DICIONÁRIO DE TERMOS
-2 - COMANDOS DO TERMINAL
-3 - COMO FAZER (TUTORIAL)
+~~~COMO FAZER (TUTORIAL)
+Aqui você verá exemplos práticos de como executar vários comandos no GIT e no GITHUB. 
+~~~
 
---------------------------------------------------
-<em>PS.: Para facilitar o acesso a informação, favor contribuir como se estivesse explicando para alguem do absoluto zero. Simplificar termos técnicos ao ponto que qualquer pessoa possa entender sem ter muitos questionamentos. Esse é o desafio! Que comecem os jogos.</em>
---------------------------------------------------
+<h3>1. DICIONÁRIO DE TERMOS</h3>
+TERMO | EXPLICAÇÃO
+:---------- | :------------------------------
+commit | teste
+deploy | teste
+VSCode | teste
 
-##1 - DICIONÁRIO DE TERMOS##
-commit - 
-deploy - 
-VSCode - 
+<hr>
+<h3>2. COMANDOS DO TERMINAL</h3>
 
-----------
-##2 - COMANDOS DO TERMINAL##
-###WINDOWS###
-/exit - sai do terminal
-/.cd - volta para a pasta anterior
-/..cd - volta duas pastas anteriores
-/cls - limpa a tela
-/dir - Mostra os arquivos da pasta
-/help - mostra alguns dos comandos disponiveis no terminal 
+**WINDOWS**
+COMANDO | EXPLICAÇÃO
+:---------- | :------------------------------ 
+/exit | sai do terminal
+/.cd | volta para a pasta anterior
+/..cd | volta duas pastas anteriores
+/cls | limpa a tela
+/dir | Mostra os arquivos da pasta
+/help | mostra alguns dos comandos disponiveis no terminal 
+/ | teste
 
-###MAC###
+**MAC**
+COMANDO | EXPLICAÇÃO
+:---------- | :------------------------------ 
+/teste | teste
 
-###LINUX###
+**LINUX**
+COMANDO | EXPLICAÇÃO
+:---------- | :------------------------------ 
+/teste | teste
 
-----------
-##3 - COMO FAZER (TUTORIAL)##
-###ENVIANDO ESTE ARQUIVO (README.MD) PARA O GITHUB PELO VSCODE###
-    1 - No GITHUB, Criar novo repositório (nome, privado ou público, etc);
-    2 - Criar no computador a pasta que será enviada para o GITHUB;
-    3 - Abrir a pasta criada no VSCode
-    4 - Criar no VSCode o arquivo ou demais pastas que serão enviadas para o GITHUB (crie um arquivo README.MD, por exemplo)
-    5 - Abrir o terminal pelo VSCode (verificar se iniciou diretamente na pasta criada)
-    6 - Digitar os seguintes comandos no terminal, dando enter ao final para confirmar:
+<br>
+<hr>
+<h3>3. COMO FAZER (TUTORIAL)</h3>
+**ENVIANDO ESTE ARQUIVO (README.MD) PARA O GITHUB PELO VSCODE**
+1. No GITHUB, Criar novo repositório (nome, privado ou público, etc);
+2. Criar no computador a pasta que será enviada para o GITHUB;
+3. Abrir a pasta criada no VSCode;
+4. Criar no VSCode o arquivo ou demais pastas que serão enviadas para o GITHUB (crie um arquivo README.MD, por exemplo);
+5. Abrir o terminal pelo VSCode (verificar se iniciou diretamente na pasta criada);
+6. Digitar os seguintes comandos no terminal, dando enter ao final para confirmar:
         git init                             -> Cria a pasta .git na sua pasta criada
         git status                           -> Verifica se os arquivos adicionados, enviados, modificados, etc (use em qualquer momento)
         cls                                  -> limpa a tela do terminal (use em qualquer momento)
